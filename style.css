@@ -1,21 +1,33 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto; 
   }
   .products-wrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
   }
   .Vitrine{ 
-    display: flex wrap;
-    width: 24%;
-    height: 500px;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: 20%;
+    height: 310px;
+    padding: 10px;
     justify-content: space-between;
   }
   img{
-    width: 175px;
+    width: 148px;
+    height: 128px;
+    align-self: center;
   }
   .menu {
     width: 100%;
@@ -58,7 +70,15 @@
     border-radius: 8px;
     cursor: pointer;
   }
-  .btn-mb:hover{
-    background: rgb(237, 164, 18);
-    color:#4c6ef5;
+
+  main button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4c6ef5;
+    color: white;
+    cursor: pointer;
+  }
+  main button:hover{
+    background-color: #6d88f3;
   }
